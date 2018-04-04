@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AJAX+FETCH</title>
+</head>
+<body>
+    
+    <p id="page-loaded"></p>
+    
+    <section>
+        <h1>AJAX HTML Sample</h1>
+        
+        <div id="html-placeholder"></div>
+        
+        <button id="get-html">Get HTML</button>
+        <button id="fetch-html">Fetch HTML</button>
+    </section>
+    
+    <section>
+        <h1>AJAX JSON Sample</h1>
+        <p>Client name: <span id="client-name"></span></p>
+        <p>Address: <span id="client-address"></span></p>
+        <p>Client age: <span id="client-age"></span></p>
+        <p>Is married: <span id="client-married"></span></p>
+        
+        <button id="get-json">Get JSON</button>
+        <button id="fetch-json">Fetch JSON</button>
+    </section>
+    
+    <section>
+        <h1>AJAX Form Sample</h1>
+        <form>
+            <label>Name:
+                <input type="text" id="form-name" required>
+            </label>
+            <br>
+            <label>Email:
+                <input type="email" id="form-email" required>
+            </label>
+            <br>
+            <input type="submit">
+        </form>
+        <div id="message"></div>
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+    <script src="js/ajax-html.js"></script>
+    <script src="js/fetch-html.js"></script>
+    <script src="js/ajax-json.js"></script>
+    <script src="js/fetch-json.js"></script>
+    <script src="js/ajax-form.js"></script>
+</body>
+</html>
